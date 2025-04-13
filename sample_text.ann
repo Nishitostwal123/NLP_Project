@@ -1,0 +1,271 @@
+T1	DISO 4 12	COVID-19
+#1	AnnotatorNotes T1	C5203670; COVID19 (disease); Disease or Syndrome
+T2	LIVB 60 67	persona
+A1	Experiencer T2 Patient
+#2	AnnotatorNotes T2	C0027361; Persons; Population Group
+T3	LIVB 87 95	personas
+A2	Experiencer T3 Patient
+#3	AnnotatorNotes T3	C0027361; Persons; Population Group
+T4	DISO 103 112	contagian
+T5	DISO 123 131	síntomas
+#4	AnnotatorNotes T5	C1457887; Symptoms; Sign or Symptom
+T6	Quantifier_or_Qualifier 135 161	intensidad leve o moderada
+T7	PHYS 168 177	recuperan
+#5	AnnotatorNotes T7	C2004454; Recovery - healing process; Organism Function
+T8	Observation 168 177	recuperan
+T9	Neg_cue 178 181	sin
+T10	PROC 195 210	hospitalización
+A3	Assertion T10 Negated
+#6	AnnotatorNotes T10	C0019993; Hospitalization; Health Care Activity
+T11	DISO 216 224	síntomas
+#7	AnnotatorNotes T11	C1457887; Symptoms; Sign or Symptom
+T12	DISO 260 266	fiebre
+#8	AnnotatorNotes T12	C0015967; Fever; Sign or Symptom
+T13	DISO 268 276	tos seca
+#9	AnnotatorNotes T13	C0850149; Dry cough; Sign or Symptom
+T14	DISO 279 288	cansancio
+#10	AnnotatorNotes T14	C0015672; Fatigue; Sign or Symptom
+T15	DISO 296 304	síntomas
+#11	AnnotatorNotes T15	C1457887; Symptoms; Sign or Symptom
+T16	DISO 339 348	Molestias
+#12	AnnotatorNotes T16	C2364135; Discomfort; Sign or Symptom
+T17	DISO 351 358	dolores
+#13	AnnotatorNotes T17	C0030193; Pain; Sign or Symptom | C0234238; Ache; Sign or Symptom
+T18	DISO 360 377	dolor de garganta
+#14	AnnotatorNotes T18	C0242429; Sore Throat; Sign or Symptom
+T19	DISO 379 386	diarrea
+#15	AnnotatorNotes T19	C0011991; Diarrhea; Sign or Symptom
+T20	DISO 388 401	conjuntivitis
+#16	AnnotatorNotes T20	C0009763; Conjunctivitis; Disease or Syndrome
+T21	DISO 403 418	dolor de cabeza
+#17	AnnotatorNotes T21	C0018681; Headache; Sign or Symptom
+T22	DISO 420 450	pérdida del sentido del olfato
+#18	AnnotatorNotes T22	C0003126; Anosmia; Finding
+T23	DISO 452 471	erupciones cutáneas
+#19	AnnotatorNotes T23	C0015230; Exanthema; Sign or Symptom
+T24	ANAT 479 511	dedos de las manos o de los pies
+T25	DISO 617 629	hipertensión
+#20	AnnotatorNotes T25	C0020538; Hypertensive disease; Disease or Syndrome
+T26	DISO 635 660	enfermedad cardiovascular
+#21	AnnotatorNotes T26	C0007222; Cardiovascular Diseases; Disease or Syndrome
+T27	Observation 691 707	evolucionan peor
+T28	DISO 712 720	COVID-19
+#22	AnnotatorNotes T28	C5203670; COVID19 (disease); Disease or Syndrome
+T29	LIVB 726 735	pacientes
+A4	Experiencer T29 Patient
+#23	AnnotatorNotes T29	C0030705; Patients; Patient or Disabled Group
+T30	DISO 778 803	enfermedad cardiovascular
+#24	AnnotatorNotes T30	C0007222; Cardiovascular Diseases; Disease or Syndrome
+T31	LIVB 852 863	coronavirus
+#25	AnnotatorNotes T31	C0010076; Coronaviridae; Virus | C0206419; Genus: Coronavirus; Virus
+T32	Neg_cue 865 867	no
+T33	PROC 868 881	automedicarse
+A5	Assertion T33 Negated
+T34	DISO 927 935	síntomas
+#26	AnnotatorNotes T34	C1457887; Symptoms; Sign or Symptom
+T35	LIVB 965 976	coronavirus
+#27	AnnotatorNotes T35	C0010076; Coronaviridae; Virus | C0206419; Genus: Coronavirus; Virus
+T36	ANAT 983 990	células
+#28	AnnotatorNotes T36	C0007634; Cells; Cell | C1269647; Entire cell; Cell
+T37	CHEM 1029 1033	IECA
+#29	AnnotatorNotes T37	C0003015; Angiotensin-Converting Enzyme Inhibitors; Pharmacologic Substance
+T38	Date 1051 1055	2020
+T39	CHEM 1176 1187	Tocilizumab
+#30	AnnotatorNotes T39	C1609165; tocilizumab; Amino Acid, Peptide, or Protein · Immunologic Factor · Pharmacologic Substance
+T40	PROC 1192 1207	terapia de base
+T41	PROC 1215 1222	placebo
+#31	AnnotatorNotes T41	C0032042; Placebos; Therapeutic or Preventive Procedure
+T42	PROC 1227 1242	terapia de base
+T43	LIVB 1246 1255	pacientes
+A6	Experiencer T43 Patient
+#32	AnnotatorNotes T43	C0030705; Patients; Patient or Disabled Group
+T44	DISO 1260 1287	neumonía grave por COVID-19
+T45	DISO 1308 1338	NEUMONÍA GRAVE POR EL COVID-19
+T46	PROC 1382 1395	Hospitalizado
+#33	AnnotatorNotes T46	C0019993; Hospitalization; Health Care Activity
+T47	DISO 1400 1423	neumonía de la COVID-19
+T48	PROC 1449 1452	RCP
+#34	AnnotatorNotes T48	C0007203; Cardiopulmonary Resuscitation; Therapeutic or Preventive Procedure
+T49	Result_or_Value 1453 1461	positiva
+T50	ANAT 1465 1471	sangre
+#35	AnnotatorNotes T50	C0005767; Blood; Body Substance
+T51	ANAT 1473 1478	orina
+#36	AnnotatorNotes T51	C0042036; Urine; Body Substance
+T52	ANAT 1480 1485	heces
+#37	AnnotatorNotes T52	C0015733; Feces; Body Substance
+T53	ANAT 1492 1508	líquido corporal
+#38	AnnotatorNotes T53	C0005889; Body Fluids; Body Substance
+T54	PROC 1521 1541	radiografía de tórax
+#39	AnnotatorNotes T54	C0039985; Plain chest X-ray; Diagnostic Procedure
+T55	PROC 1544 1547	TAC
+#40	AnnotatorNotes T55	C0040405; X-Ray Computed Tomography; Diagnostic Procedure
+T56	Date 1560 1564	2020
+A7	Assertion T56 Negated
+T57	CHEM 1663 1673	Cefazolina
+#41	AnnotatorNotes T57	C0007546; cefazolin; Antibiotic · Organic Chemical
+T58	CHEM 1678 1692	Ciprofloxacino
+#42	AnnotatorNotes T58	C0008809; ciprofloxacin; Organic Chemical · Pharmacologic Substance
+T59	PROC 1699 1724	profilaxis de infecciones
+T60	LIVB 1728 1737	pacientes
+A8	Experiencer T60 Patient
+#43	AnnotatorNotes T60	C0030705; Patients; Patient or Disabled Group
+T61	DISO 1738 1748	cirróticos
+#44	AnnotatorNotes T61	C1623038; Cirrhosis; Disease or Syndrome
+T62	DISO 1753 1771	sangrado digestivo
+#45	AnnotatorNotes T62	C0017181; Gastrointestinal Hemorrhage; Pathologic Function
+T63	CHEM 1806 1816	Cefazolina
+#46	AnnotatorNotes T63	C0007546; cefazolin; Antibiotic · Organic Chemical
+T64	PROC 1822 1844	profilaxis antibiótica
+#47	AnnotatorNotes T64	C0282638; Antibiotic Prophylaxis; Therapeutic or Preventive Procedure
+T65	CONC 1857 1868	disminución
+T66	DISO 1890 1901	infecciones
+#48	AnnotatorNotes T66	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T67	LIVB 1905 1914	pacientes
+A9	Experiencer T67 Patient
+#49	AnnotatorNotes T67	C0030705; Patients; Patient or Disabled Group
+T68	DISO 1915 1925	cirróticos
+#50	AnnotatorNotes T68	C1623038; Cirrhosis; Disease or Syndrome
+T69	DISO 1930 1948	sangrado digestivo
+#51	AnnotatorNotes T69	C0017181; Gastrointestinal Hemorrhage; Pathologic Function
+T70	CHEM 1964 1978	Ciprofloxacino
+#52	AnnotatorNotes T70	C0008809; ciprofloxacin; Organic Chemical · Pharmacologic Substance
+T71	PROC 2000 2027	Ensayo Clínico aleatorizado
+T72	LIVB 2045 2054	pacientes
+A10	Experiencer T72 Patient
+#53	AnnotatorNotes T72	C0030705; Patients; Patient or Disabled Group
+T73	DISO 2055 2065	cirróticos
+#54	AnnotatorNotes T73	C1623038; Cirrhosis; Disease or Syndrome
+T74	DISO 2090 2108	sangrado digestivo
+#55	AnnotatorNotes T74	C0017181; Gastrointestinal Hemorrhage; Pathologic Function
+T75	PROC 2114 2124	ingresaron
+#56	AnnotatorNotes T75	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T76	Date 2131 2145	Julio del 2008
+T77	Date 2148 2162	julio del 2010
+T78	Neg_cue 2210 2213	sin
+T79	Observation 2214 2231	evidencia clínica
+A11	Assertion T79 Negated
+T80	Neg_cue 2232 2234	ni
+T81	DISO 2253 2262	infección
+A12	Assertion T81 Negated
+#57	AnnotatorNotes T81	C0009450; Communicable Diseases; Disease or Syndrome | C3714514; Infection; Pathologic Function
+T82	PROC 2278 2285	ingreso
+#58	AnnotatorNotes T82	C0021629; Institutionalization; Health Care Activity | C0184666; Hospital admission; Health Care Activity
+T83	Neg_cue 2292 2294	no
+T84	PROC 2313 2336	tratamiento antibiótico
+A13	Assertion T84 Negated
+T85	Duration 2337 2358	las últimas 2 semanas
+T86	CHEM 2388 2402	Ciprofloxacino
+#59	AnnotatorNotes T86	C0008809; ciprofloxacin; Organic Chemical · Pharmacologic Substance
+T87	Dose 2403 2409	200 mg
+T88	Frequency 2410 2413	bid
+T89	Route 2414 2416	EV
+T90	CHEM 2427 2437	Cefazolina
+#60	AnnotatorNotes T90	C0007546; cefazolin; Antibiotic · Organic Chemical
+T91	Dose 2438 2441	1 g
+T92	Frequency 2442 2445	tid
+T93	Route 2446 2448	EV
+T94	Duration 2452 2458	7 días
+T95	Date 2481 2485	2011
+T96	Age 736 754	mayores de 60 años
+T97	Age 1370 1379	>=18 años
+T98	Age 2066 2084	mayores de 18 años
+
+# Translations:
+#T1	COVID-19 -> COVID-19
+#T2	persona -> person
+#T3	personas -> people
+#T4	contagian -> infect
+#T5	síntomas -> symptoms
+#T6	intensidad leve o moderada -> Mild or moderate intensity
+#T7	recuperan -> They recover
+#T8	recuperan -> They recover
+#T9	sin -> without
+#T10	hospitalización -> hospitalization
+#T11	síntomas -> symptoms
+#T12	fiebre -> fever
+#T13	tos seca -> hacking cough
+#T14	cansancio -> fatigue
+#T15	síntomas -> symptoms
+#T16	Molestias -> Discomfort
+#T17	dolores -> Dolores
+#T18	dolor de garganta -> sore throat
+#T19	diarrea -> diarrhea
+#T20	conjuntivitis -> conjunctivitis
+#T21	dolor de cabeza -> headache
+#T22	pérdida del sentido del olfato -> loss of the sense of smell
+#T23	erupciones cutáneas -> Cutaneous eruptions
+#T24	dedos de las manos o de los pies -> Hand or feet fingers
+#T25	hipertensión -> hypertension
+#T26	enfermedad cardiovascular -> cardiovascular disease
+#T27	evolucionan peor -> They evolve worse
+#T28	COVID-19 -> COVID-19
+#T29	pacientes -> patients
+#T30	enfermedad cardiovascular -> cardiovascular disease
+#T31	coronavirus -> Coronavirus
+#T32	no -> No
+#T33	automedicarse -> self -medicate
+#T34	síntomas -> symptoms
+#T35	coronavirus -> Coronavirus
+#T36	células -> Cells
+#T37	IECA -> IECA
+#T38	2020 -> 2020
+#T39	Tocilizumab -> Tocilizumab
+#T40	terapia de base -> Base therapy
+#T41	placebo -> placebo
+#T42	terapia de base -> Base therapy
+#T43	pacientes -> patients
+#T44	neumonía grave por COVID-19 -> Severe Covid-19 pneumonia
+#T45	NEUMONÍA GRAVE POR EL COVID-19 -> Severe pneumonia for COVID-19
+#T46	Hospitalizado -> Hospitalized
+#T47	neumonía de la COVID-19 -> COVID-19 pneumonia
+#T48	RCP -> RCP
+#T49	positiva -> positive
+#T50	sangre -> blood
+#T51	orina -> urine
+#T52	heces -> stool
+#T53	líquido corporal -> Body liquid
+#T54	radiografía de tórax -> thorax radiography
+#T55	TAC -> TAC
+#T56	2020 -> 2020
+#T57	Cefazolina -> Headache
+#T58	Ciprofloxacino -> Ciprofloxacino
+#T59	profilaxis de infecciones -> Prophylaxis of infections
+#T60	pacientes -> patients
+#T61	cirróticos -> Cirrotics
+#T62	sangrado digestivo -> digestive bleeding
+#T63	Cefazolina -> Headache
+#T64	profilaxis antibiótica -> Antibiotic prophylaxis
+#T65	disminución -> decrease
+#T66	infecciones -> infections
+#T67	pacientes -> patients
+#T68	cirróticos -> Cirrotics
+#T69	sangrado digestivo -> digestive bleeding
+#T70	Ciprofloxacino -> Ciprofloxacino
+#T71	Ensayo Clínico aleatorizado -> Random clinical trial
+#T72	pacientes -> patients
+#T73	cirróticos -> Cirrotics
+#T74	sangrado digestivo -> digestive bleeding
+#T75	ingresaron -> They entered
+#T76	Julio del 2008 -> July 2008
+#T77	julio del 2010 -> July 2010
+#T78	sin -> without
+#T79	evidencia clínica -> Clinical evidence
+#T80	ni -> neither
+#T81	infección -> infection
+#T82	ingreso -> income
+#T83	no -> No
+#T84	tratamiento antibiótico -> Antibiotic treatment
+#T85	las últimas 2 semanas -> The last 2 weeks
+#T86	Ciprofloxacino -> Ciprofloxacino
+#T87	200 mg -> 200 mg
+#T88	bid -> IDB
+#T89	EV -> EV
+#T90	Cefazolina -> Headache
+#T91	1 g -> 1 g
+#T92	tid -> tid
+#T93	EV -> EV
+#T94	7 días -> 7 days
+#T95	2011 -> 2011
+#T96	mayores de 60 años -> over 60 years
+#T97	>=18 años -> > = 18 years
+#T98	mayores de 18 años -> Older than 18 years

@@ -1,0 +1,138 @@
+<!doctype html>
+<link rel="stylesheet" href="static/style.css">
+<head>
+  <title>MedSpaNER</title>
+  <meta http-equiv="Cache-control" content="no-cache">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<nav>
+  <table border="0" align="center">
+    <tr>
+      <td><img src="static/logo.jpg" style="max-width:250px; height:auto" alt="Logo"/></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><h1 class="center">Medical Semantic Named Entity Recognizer</h1></td>
+    </tr>
+  </table>
+</nav>
+<body>
+  <table border="0" align="center">
+    <tr>
+      <td>
+        <div id="show-after-results" class="hide">
+           <input type="submit" class="css-button-2" onclick="download()" readonly value="    Download    ">
+           <textarea id="annotations" name="annotations" style="display:none">{{ ann_data }}</textarea>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td><br /><br /></td>
+    </tr>
+  </table>      
+  <form method="POST" action="" onsubmit="return getContent()" name='input_form'>
+    <table border="0" align="center">
+    <tr>
+      <td>
+        <label class="container">UMLS entities
+        <input type="checkbox" name="neu" {% if 'neu' in selected_checkboxes %}checked{% endif %}>
+        <span class="checkmark"></span>
+        </label>
+      </td>
+      <!--<td>&#160;</td>-->
+      <td>
+        <label class="container">Drug information
+        <input type="checkbox" name="drg" {% if 'drg' in selected_checkboxes %}checked{% endif %}>
+        <span class="checkmark"></span>
+        </label>
+      </td>
+      <td>
+        <label class="container">Temporal entities 
+        <input type="checkbox" name="temp" {% if 'temp' in selected_checkboxes %}checked{% endif %}>
+        <span class="checkmark"></span>
+        </label>
+      </td>
+      <td>
+        <label class="container">Miscellaneous entities
+        <input type="checkbox" name="misc" {% if 'misc' in selected_checkboxes %}checked{% endif %}>
+        <span class="checkmark"></span>
+        </label>
+      </td>
+      <td>
+        <label class="container">Negation/Speculation
+        <input type="checkbox" name="neg" {% if 'neg' in selected_checkboxes %}checked{% endif %}>
+        <span class="checkmark"></span>
+        </label>
+      </td>
+      <td>
+        <label class="container">Attributes
+        <input type="checkbox" name="att" {% if 'att' in selected_checkboxes %}checked{% endif %}>
+        <span class="checkmark"></span>
+        </label>
+      </td>
+      <td>
+        <label class="container">Nested entities
+        <input type="checkbox" name="nest" {% if 'nest' in selected_checkboxes %}checked{% endif %}>
+        <span class="checkmark"></span>
+        </label>
+      </td>
+      <td>
+        <label class="container">Use lexicon
+        <input type="checkbox" name="lex" {% if 'lex' in selected_checkboxes %}checked{% endif %}>
+        <span class="checkmark"></span>
+        </label>
+      </td>
+      <td>
+        <label class="container">Normalize
+        <input type="checkbox" name="norm" {% if 'norm' in selected_checkboxes %}checked{% endif %}>
+        <span class="checkmark"></span>
+        </label>
+      </td>
+    </tr>
+    </table>
+    <table border="0" align="center">
+    <tr>
+      <td>
+        <!--<input class="css-button-2" onclick="load_sample()" style="width:100px" readonly value="Sample text" >-->
+        <select class="css-button-2" id="seleccionarTexto" onchange="mostrarTexto()">
+            <option value="empty">Sample text</option>
+            <option value="texto1">Clinical case</option>
+            <option value="texto2">Clinical trial</option>
+            <option value="texto3">Journal article</option>
+        </select>
+      </td>
+      <td>&#160;</td>
+      <td>&#160;</td>
+      <td>
+        <input class="css-button-2" id="clear" onclick="document.getElementById('text_input').innerText = '';document.getElementById('show-after-results').className = 'hide';" readonly value="Clear">  
+      </td>
+      <td>&#160;</td>
+      <td>&#160;</td>
+      <td>
+        <input type="submit" class="css-button" onclick="nav();" readonly value="Analyze" >
+      </td>
+      <td>&#160;</td>
+      <td>&#160;</td>
+      <td><a class="link" href="{{ url_for('help') }}">Help</a></td>
+      <td>&#160;</td>
+      <td>&#160;</td>
+      <td><a class="link" href="{{ url_for('about') }}">About</a></td>
+    </tr>
+    <tr>
+      <td><br /></td>
+    </tr>
+    </table>
+    <div id="text_input" name="text_input" placeholder="Copy or write a text here..." contenteditable="true">{{ results }}</div>  
+    <textarea id="my-textarea" name="text" style="display:none"></textarea>
+    <div class="loader" id="loader" title="Loading..."></div>
+    <br />
+  </form>
+  <table class="advert">
+  <tr>
+      <td><p>&nbsp;&nbsp;<b>Disclosure</b>: This tool is under development and needs to be improved. It should not be used for medical decision making without human assistance and supervision.&nbsp;&nbsp;<br /></p>
+  </tr>
+  </table>
+  <script src="static/code.js"></script>
+</body>  
+
+  
